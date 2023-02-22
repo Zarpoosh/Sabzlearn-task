@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Yekan;
+    src: url(../font/Yekan.ttf) format(truetype);
+}
+*{
+    font-family: Yekan;
+}
+/* brand */
+.img-brand{
+    width: 60px;
+}
+.text-style{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(5, 6, 51, 0.572), rgba(0, 0, 0, 0.572)),url(../image/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.li-img{
+    font-size: 23px;
+}
+
+/* end of brand */
+
+.nav-style{
+    padding: 5px 30px;
+    background:linear-gradient(rgba(0, 0, 0, 0.582),rgba(0,0,0,.7));
+}
+/* nav button */
+.line1 ,.line2 ,.line3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all.4s;
+}
+.change .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .line2{
+    opacity: 0;
+}
+.change .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+/* end of navbutton */
+
+/* card */
+.card-style{
+background-color: rgb(23, 23, 23);
+}
+.section-style{
+    background-color: rgb(29, 29, 29);
+
+}
+/* end of card */
+
+/* footer */
+.footer-style{
+    background:linear-gradient(rgba(0, 0, 0, 0.717),rgba(0,0,0,.7));
+}
+/* end of footer */
